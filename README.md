@@ -41,3 +41,19 @@
 
 -- Partial Variables: Injected format_instructions into PromptTemplate using partial_variables to dynamically enforce output structure.
 
+
+
+
+**DAY 04:** What i learned:
+
+** Context-Aware Q&A (LangChain) **
+
+-- Hallucination Prevention: Designed prompts that inject dynamic context alongside queries, strictly forcing the model to rely only on provided facts or safely fallback to "I don't know."
+
+** Multiple Linear Regression (scikit-learn) **
+
+-- Multi-Feature Predictions: Built models using multiple independent variables simultaneously.  Evaluated feature weights (coef_, intercept_) and validated accuracy using MSE, MAE, and R².
+
+** Polynomial Regression (scikit-learn) **
+
+-- Modeling Non-Linearity: Used PolynomialFeatures (degree=2) to successfully fit curved datasets.  Mastered the strict fit_transform (training) vs. transform (testing) pipeline to prevent data leakage.

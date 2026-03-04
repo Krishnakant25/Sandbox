@@ -97,3 +97,5 @@ duckduckgo-search
 langchainhub
 langserve
 fastapi
+scikit-learn
+matplotlib

@@ -63,8 +63,13 @@
 
 **DAY 05:** What I Learned:
 ** LangChain Development **
+
 -- Stateless Batching: Used .batch() to run multiple prompts simultaneously, noting that context does not carry over between individual inputs in the list.
+
 -- Stateful Chat: Built an interactive loop using chat_history to store HumanMessage and AIMessage objects, enabling the AI to remember previous context.
+
 ** Machine Learning & Preprocessing **
+
 -- Feature Scaling: Applied StandardScaler to normalize data, ensuring features like Age and Experience are on a consistent scale for the model.
+
 -- Evaluation Metrics: Validated model performance using $R^2$ and Mean Absolute Error (MAE) to measure prediction accuracy.

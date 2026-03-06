@@ -62,6 +62,7 @@
 
 
 **DAY 05:** What I Learned:
+
 ** LangChain Development **
 
 -- Stateless Batching: Used .batch() to run multiple prompts simultaneously, noting that context does not carry over between individual inputs in the list.
@@ -73,3 +74,22 @@
 -- Feature Scaling: Applied StandardScaler to normalize data, ensuring features like Age and Experience are on a consistent scale for the model.
 
 -- Evaluation Metrics: Validated model performance using $R^2$ and Mean Absolute Error (MAE) to measure prediction accuracy.
+
+
+
+
+**DAY 06:** What I Learned:
+
+** Categorical Encoding (scikit-learn) **
+
+-- Label Encoding: Converted text labels into integers ($0, 1, 2, \dots$) using LabelEncoder.
+
+-- One-Hot Encoding (OHE): Created binary columns for nominal data to prevent models from assuming a mathematical rank between categories.
+
+** Web-Based AI OrchestrationStreamlit UI:**
+
+-- Built a browser-based interface for the chatbot using st.chat_message and st.chat_input.
+
+-- Session Persistence: Managed st.session_state to maintain chat_history and AI memory across web reruns.
+
+-- State Control: Implemented a "Clear-Chat" feature to reset the SystemMessage and conversation history.

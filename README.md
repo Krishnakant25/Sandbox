@@ -93,3 +93,26 @@
 -- Session Persistence: Managed st.session_state to maintain chat_history and AI memory across web reruns.
 
 -- State Control: Implemented a "Clear-Chat" feature to reset the SystemMessage and conversation history.
+
+
+
+
+**DAY 07:** what I Learned:
+
+** Advanced Preprocessing (scikit-learn) **
+
+-- Mixed Data Workflows: Implemented simultaneous scaling and encoding for datasets with both numerical and categorical variables.
+
+-- Automated Column Selection: Used select_dtypes to isolate features for processing, streamlining pipelines for large-scale data.
+
+** Model Regularization **
+
+-- Lasso (L1) Regression: Applied L1 regularization to perform feature selection by shrinking less important coefficients to zero.
+
+-- Ridge (L2) Regression: Used L2 regularization to prevent overfitting by penalizing the magnitude of coefficients.
+
+** LangChain Orchestration (LCEL) **
+
+-- Chain Composition: Mastered the | (pipe) operator to link ChatPromptTemplate, ChatOpenAI, and StrOutputParser.
+
+-- Modular Logic: Built reusable chains that dynamically inject variables like {animal} and {fact_count} for context-aware responses.

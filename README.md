@@ -116,3 +116,23 @@
 -- Chain Composition: Mastered the | (pipe) operator to link ChatPromptTemplate, ChatOpenAI, and StrOutputParser.
 
 -- Modular Logic: Built reusable chains that dynamically inject variables like {animal} and {fact_count} for context-aware responses.
+
+
+
+
+**DAY 08:** what I Learned:
+** Advanced Linear Modeling (scikit-learn) **
+
+-- Elastic Net Regularization: Implemented ElasticNet logic within LogisticRegression to combine the feature selection of Lasso (L1) with the stability of Ridge (L2).
+
+-- Classification Metrics: Evaluated loan approval predictions using Accuracy, Precision, Recall, and F1-Score to quantify model performance beyond simple error rates.
+
+-- Feature Engineering: Integrated StandardScaler for continuous variables and OneHotEncoder for categorical data, using np.concatenate to build the final feature matrix.
+
+** LangChain Deep Dive (LCEL Architecture) **
+
+-- Runnable Components: Mastered the use of RunnableLambda to wrap custom Python functions into pipeline-compatible steps.
+
+-- Explicit Sequences: Built structured workflows using RunnableSequence to explicitly define the format_prompt -> invoke_model -> parse_output lifecycle.
+
+-- State Transformation: Learned to handle object transitions, such as converting formatted prompts to message lists using .to_messages() before model invocation.

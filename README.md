@@ -136,3 +136,20 @@
 -- Explicit Sequences: Built structured workflows using RunnableSequence to explicitly define the format_prompt -> invoke_model -> parse_output lifecycle.
 
 -- State Transformation: Learned to handle object transitions, such as converting formatted prompts to message lists using .to_messages() before model invocation.
+
+
+
+
+**DAY 09** what I Learned:
+
+** Supervised Learning (scikit-learn) **
+
+-- Decision Tree Architecture: Mastered the logic of tree-based models that use "if-then-else" decision rules to classify data.
+
+-- Model Validation: Learned to interpret Precision vs. Recall trade-offs in classification, ensuring the model's reliability beyond simple accuracy.
+
+** Advanced LangChain (Sequential Chains) **
+
+-- Output-Input Piping: Implemented sequential logic where the AI performs a primary task (translation) before executing a dependent secondary task (fact expert).
+
+-- Context Preservation: Learned to pass dynamic variables across multiple chain links, allowing for complex, multi-turn AI workflows in a single invoke() call.

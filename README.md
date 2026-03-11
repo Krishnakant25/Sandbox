@@ -153,3 +153,20 @@
 -- Output-Input Piping: Implemented sequential logic where the AI performs a primary task (translation) before executing a dependent secondary task (fact expert).
 
 -- Context Preservation: Learned to pass dynamic variables across multiple chain links, allowing for complex, multi-turn AI workflows in a single invoke() call.
+
+
+
+
+**DAY 10** what I Learned:
+
+** Regression with Trees (scikit-learn) **
+
+-- Decision Tree Regressor: Learned how trees handle continuous targets by splitting data into nodes representing mean numerical values rather than discrete classes.
+
+-- Standardization: Applied StandardScaler to ensure numerical inputs are properly normalized before fitting the regressor.
+
+** Concurrent LangChain (Parallel Chains) **
+
+-- RunnableParallel: Mastered executing multiple LLM branches at the exact same time, effectively cutting total wait time in half.
+
+-- Branching Logic: Split a single user input into specialized sub-tasks and aggregated their results into a structured, unified final output.

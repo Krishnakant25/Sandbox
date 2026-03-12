@@ -170,3 +170,20 @@
 -- RunnableParallel: Mastered executing multiple LLM branches at the exact same time, effectively cutting total wait time in half.
 
 -- Branching Logic: Split a single user input into specialized sub-tasks and aggregated their results into a structured, unified final output.
+
+
+
+
+**DAY 11** what I Learned:
+
+** Advanced Model Evaluation (scikit-learn) **
+
+-- Confusion Matrix Analysis: Moved beyond standard accuracy scores to identify exactly how a classification model is failing by breaking down predictions into True/False Positives and Negatives.
+
+-- Plotting Predictions: Learned to use ConfusionMatrixDisplay.from_predictions to generate visual reports that make model evaluation immediately interpretable.
+
+** Dynamic LangChain Orchestration (LCEL) **
+
+-- Conditional Logic (RunnableBranch): Mastered the ability to build "if-else" execution paths directly into an LCEL pipeline, allowing the chain to adapt its behavior on the fly.
+
+-- Multi-Stage Routing: Successfully linked a classification chain (to determine sentiment) to a routing mechanism that dynamically triggers distinct, specialized prompt templates.

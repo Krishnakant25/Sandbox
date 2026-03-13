@@ -187,3 +187,20 @@
 -- Conditional Logic (RunnableBranch): Mastered the ability to build "if-else" execution paths directly into an LCEL pipeline, allowing the chain to adapt its behavior on the fly.
 
 -- Multi-Stage Routing: Successfully linked a classification chain (to determine sentiment) to a routing mechanism that dynamically triggers distinct, specialized prompt templates.
+
+
+
+
+**DAY 13:** What I Learned:
+
+** Ensemble Methods (scikit-learn)**
+
+-- Random Forests: Understood how combining dozens of "weak learner" decision trees into a single "forest" minimizes variance and improves generalization on unseen data.
+
+-- Bootstrap Aggregation: Learned the concept of training each individual tree on random subsets of the dataset and random subsets of features.
+
+** Agentic AI Architecture (LangChain) **
+
+-- The ReAct Framework: Mastered the Thought -> Action -> Action Input -> Observation loop, enabling the model to dynamically solve multi-step problems by interacting with external tools.
+
+-- Custom Agent Prompting: Successfully engineered strict instruction templates that reliably guide the agent's internal monologue and tool-calling syntax from scratch

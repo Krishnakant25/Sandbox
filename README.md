@@ -204,3 +204,20 @@
 -- The ReAct Framework: Mastered the Thought -> Action -> Action Input -> Observation loop, enabling the model to dynamically solve multi-step problems by interacting with external tools.
 
 -- Custom Agent Prompting: Successfully engineered strict instruction templates that reliably guide the agent's internal monologue and tool-calling syntax from scratch
+
+
+
+
+**DAY 14:** What I Learned:
+
+** Advanced Ensemble Methods (XGBoost) **
+
+-- Sequential Boosting: Learned how Gradient Boosting differs fundamentally from Bagging (Random Forests). Instead of building independent trees, XGBoost trains trees sequentially, where each new tree specifically attempts to correct the residual errors of the previous ones.
+
+-- Model Efficiency: Experienced firsthand the high performance and execution speed that makes XGBoost a standard algorithm for structured, tabular data.
+
+** Live-Data Agentic Workflows (LangChain) **
+
+-- External Tool Integration: Mastered binding external APIs (like Tavily) to an AgentExecutor, allowing the LLM to autonomously decide when and how to search the internet for missing information.
+
+-- The LangChain Hub: Discovered how to leverage standard, pre-optimized prompts from the community to guarantee reliable Thought -> Action -> Observation loops without manual prompt engineering.

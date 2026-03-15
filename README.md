@@ -221,3 +221,20 @@
 -- External Tool Integration: Mastered binding external APIs (like Tavily) to an AgentExecutor, allowing the LLM to autonomously decide when and how to search the internet for missing information.
 
 -- The LangChain Hub: Discovered how to leverage standard, pre-optimized prompts from the community to guarantee reliable Thought -> Action -> Observation loops without manual prompt engineering.
+
+
+
+
+**DAY 15:** What I Learned:
+
+Model Optimization (scikit-learn)
+
+-- Grid Search: Moved beyond default model parameters by automating the testing of various structural settings (like tree depth and split criteria) to mathematically maximize model performance.
+
+-- Cross-Validation: Learned how Grid Search incorporates internal k-fold cross-validation to rigorously test each parameter combination across different subsets of the training data, effectively preventing overfitting.
+
+** Graph-Based AI Agents (LangGraph) **
+
+-- Stateful Flow: Discovered how LangGraph modernizes agent creation by treating the Thought -> Action -> Observation loop as a state graph, making complex, multi-turn tool usage more predictable and controllable.
+
+-- Message-Driven Invocation: Learned to trigger the compiled agent graph using a strict dictionary format ({"messages": [("user", "...")]}), simplifying how context is passed to the LLM.

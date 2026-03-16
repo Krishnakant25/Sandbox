@@ -238,3 +238,20 @@ Model Optimization (scikit-learn)
 -- Stateful Flow: Discovered how LangGraph modernizes agent creation by treating the Thought -> Action -> Observation loop as a state graph, making complex, multi-turn tool usage more predictable and controllable.
 
 -- Message-Driven Invocation: Learned to trigger the compiled agent graph using a strict dictionary format ({"messages": [("user", "...")]}), simplifying how context is passed to the LLM.
+
+
+
+
+**DAY 16:** What I Learned:
+
+** Advanced Model Optimization (scikit-learn) **
+
+-- Randomized Search vs. Grid Search: Learned how RandomizedSearchCV efficiently navigates large parameter spaces by randomly sampling a fixed number of combinations (using n_iter=10) rather than testing every single possibility.
+
+-- Cost-Benefit Analysis: Discovered that randomized searching drastically reduces processing time and computational cost while still discovering highly optimized model configurations.
+
+** Retrieval-Augmented Generation (LangChain) **
+
+-- Document Loading: Mastered the very first step of the RAG architecture by converting raw, external .txt files into LangChain-compatible Document objects using TextLoader.
+
+-- Data Verification: Implemented length-checking logic (len(documents)) to verify that the target files were correctly loaded into memory before passing them to downstream LLMs.

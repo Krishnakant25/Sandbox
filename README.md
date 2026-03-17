@@ -255,3 +255,20 @@ Model Optimization (scikit-learn)
 -- Document Loading: Mastered the very first step of the RAG architecture by converting raw, external .txt files into LangChain-compatible Document objects using TextLoader.
 
 -- Data Verification: Implemented length-checking logic (len(documents)) to verify that the target files were correctly loaded into memory before passing them to downstream LLMs.
+
+
+
+
+**DAY 17:** What I Learned:
+
+** Instance-Based Learning (scikit-learn) **
+
+-- K-Nearest Neighbors (KNN): Discovered how "lazy learning" algorithms work—rather than building a generalized internal model, KNN stores the training data and classifies new points based on the majority vote of their closest neighbors.
+
+-- Tuning K: Learned the importance of testing different values for n_neighbors to balance the bias-variance tradeoff, ensuring the model isn't overly sensitive to noise ($k=1$) or too generalized.
+
+** Advanced Data Ingestion (LangChain) **
+
+-- Handling Complex Formats: Transitioned from simple text files to parsing unstructured PDF documents, a critical step for real-world RAG applications.
+
+-- Binary Blobs & Lazy Loading: Mastered reading files as binary large objects (Blob) and extracting content using lazy_parse, a best practice for processing massive, multi-page documents without crashing system memory.

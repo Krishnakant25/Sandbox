@@ -272,3 +272,13 @@ Model Optimization (scikit-learn)
 -- Handling Complex Formats: Transitioned from simple text files to parsing unstructured PDF documents, a critical step for real-world RAG applications.
 
 -- Binary Blobs & Lazy Loading: Mastered reading files as binary large objects (Blob) and extracting content using lazy_parse, a best practice for processing massive, multi-page documents without crashing system memory.
+
+
+
+
+**DAY 18:** What I Learned:
+RAG Data Processing (LangChain)
+
+-- Chunking Strategy: Discovered that feeding entire documents into an LLM is inefficient and often blocked by token limits. Breaking text into overlapping chunks ensures the model receives highly relevant, focused context without losing the narrative thread.
+
+-- Mathematical Semantic Representation: Mastered the concept of text embeddings. By converting sentences into mathematical vectors, AI can mathematically measure how "similar" two pieces of text are, allowing for intelligent document retrieval based on concepts rather than just exact keyword matches.

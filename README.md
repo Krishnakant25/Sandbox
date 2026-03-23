@@ -277,8 +277,28 @@ Model Optimization (scikit-learn)
 
 
 **DAY 18:** What I Learned:
-RAG Data Processing (LangChain)
+
+** RAG Data Processing (LangChain) **
 
 -- Chunking Strategy: Discovered that feeding entire documents into an LLM is inefficient and often blocked by token limits. Breaking text into overlapping chunks ensures the model receives highly relevant, focused context without losing the narrative thread.
 
 -- Mathematical Semantic Representation: Mastered the concept of text embeddings. By converting sentences into mathematical vectors, AI can mathematically measure how "similar" two pieces of text are, allowing for intelligent document retrieval based on concepts rather than just exact keyword matches.
+
+
+
+
+**DAY 19:** What I Learned:
+
+** End-to-End RAG Orchestration (LangChain) **
+
+-- Pipeline Integration: Mastered the assembly of discrete components—loaders, splitters, and embedding models—into a continuous, automated pipeline for processing unstructured data.
+
+-- Semantic Integrity: Reinforced the importance of maintaining context through chunk overlaps while generating embeddings that mathematically represent document meaning.
+
+** Text Feature Engineering (scikit-learn) **
+
+-- Bag-of-Words (BoW) Model: Learned the mechanics of frequency-based vectorization, where text is represented by the occurrence count of each word in a global vocabulary.
+
+-- Feature Matrix Representation: Understood how to map sparse matrices back to human-readable DataFrames by extracting feature names from the vectorizer.
+
+-- NLP Foundations: Observed the fundamental difference between simple count-based vectors (BoW) and semantic, context-aware vectors (Embeddings).

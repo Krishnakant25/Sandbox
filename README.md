@@ -302,3 +302,19 @@ Model Optimization (scikit-learn)
 -- Feature Matrix Representation: Understood how to map sparse matrices back to human-readable DataFrames by extracting feature names from the vectorizer.
 
 -- NLP Foundations: Observed the fundamental difference between simple count-based vectors (BoW) and semantic, context-aware vectors (Embeddings).
+
+
+
+
+**DAY 20:** What I Learned:
+** Advanced Text Vectorization (scikit-learn) **
+
+-- TF-IDF Logic: Learned that unlike simple counts, TF-IDF calculates a score that increases with a word's frequency in a document but is offset by its frequency in the entire corpus.
+
+-- Sparse Matrix Interpretation: Understood how to convert statistical matrices into readable DataFrames to verify the mathematical importance of specific terms.
+
+** Search & Retrieval Orchestration (LangChain) **
+
+-- Vector Store Management (FAISS): Mastered the transition from generating embeddings to indexing them in a searchable database for sub-second retrieval.
+
+-- The RAG Workflow: Successfully closed the loop between raw data and AI response by building a "Retriever" that feeds specific context into the final LLM prompt.

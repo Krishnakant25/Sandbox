@@ -322,4 +322,16 @@ Model Optimization (scikit-learn)
 
 
 
-**DAY 21:** 
+**DAY 21:** What I Learned:
+
+** Data Quality Engineering (scikit-learn) **
+
+-- Missing Value Imputation: Learned how SimpleImputer prevents data loss by mathematically estimating missing values based on column statistics (mean, median, or most frequent).
+
+** Production RAG Architecture (LangChain) **
+
+-- Persistence vs. In-Memory: Mastered the transition from in-memory stores to persistent databases (Chroma), allowing AI applications to "remember" processed documents across different sessions.
+
+-- Directory Management: Implemented os path logic to automatically detect if a vector database already exists, optimizing resources by skipping the ingestion phase when possible.
+
+-- Strict Grounding: Reinforced AI reliability by using custom prompts that bind the model's response strictly to the retrieved docs.

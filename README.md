@@ -335,3 +335,22 @@ Model Optimization (scikit-learn)
 -- Directory Management: Implemented os path logic to automatically detect if a vector database already exists, optimizing resources by skipping the ingestion phase when possible.
 
 -- Strict Grounding: Reinforced AI reliability by using custom prompts that bind the model's response strictly to the retrieved docs.
+
+
+
+
+**DAY 22:** What I Learned:
+
+** Machine Learning Engineering (scikit-learn) **
+
+-- Production Pipelines: Learned that pipelines prevent "data leakage" by ensuring that the exact same transformations used on training data are applied to test data.
+
+-- Modular Preprocessing: Mastered ColumnTransformer for handling mixed-type datasets efficiently in a scalable way.
+
+** Scalable RAG Development (LangChain) **
+
+-- Vector Store Persistence: Discovered how to save a Chroma index to disk, making applications faster by skipping the computationally expensive embedding step on every run.
+
+-- Quality Control (Thresholding): Learned to use score_threshold in retrievers to ensure only highly relevant context reaches the LLM, reducing "hallucinations" caused by noisy data.
+
+-- Source Transparency: Implemented metadata tracking to provide the user with the exact origin (e.g., file name) of the information retrieved by the agent.

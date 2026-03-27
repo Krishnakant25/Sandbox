@@ -354,3 +354,20 @@ Model Optimization (scikit-learn)
 -- Quality Control (Thresholding): Learned to use score_threshold in retrievers to ensure only highly relevant context reaches the LLM, reducing "hallucinations" caused by noisy data.
 
 -- Source Transparency: Implemented metadata tracking to provide the user with the exact origin (e.g., file name) of the information retrieved by the agent.
+
+
+
+
+**DAY 23:** What I Learned:
+
+** Production Machine Learning (scikit-learn) **
+
+-- The Pipeline Pattern: Learned how to treat an entire machine learning workflow as a single object, which simplifies code maintenance and eliminates "data leakage" by syncing training and testing transformations.
+
+-- Feature-Specific Logic: Mastered applying different mathematical strategies to specific columns (e.g., mean imputation for numbers vs. constant imputation for text) within a unified transformer.
+
+** Advanced RAG Infrastructure (LangChain) **
+
+-- Vector Store Persistence: Understood the architecture required to save expensive embedding data to disk, enabling high-performance, persistent AI applications that don't lose their "memory" after a restart.
+
+-- Metadata Extraction: Discovered how to leverage document metadata to provide users with specific source citations, a key requirement for building trustworthy and verifiable AI systems.

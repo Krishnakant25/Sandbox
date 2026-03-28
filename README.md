@@ -371,3 +371,20 @@ Model Optimization (scikit-learn)
 -- Vector Store Persistence: Understood the architecture required to save expensive embedding data to disk, enabling high-performance, persistent AI applications that don't lose their "memory" after a restart.
 
 -- Metadata Extraction: Discovered how to leverage document metadata to provide users with specific source citations, a key requirement for building trustworthy and verifiable AI systems.
+
+
+
+
+**DAY 23:** What I Learned:
+
+** Advanced Preprocessing (scikit-learn) **
+
+-- Recursive Pipelines: Mastered the nesting of Pipeline objects inside a ColumnTransformer. This allows for complex, multi-step transformations (like imputing then scaling) on specific feature subsets before they reach the final estimator.
+
+-- Automated Feature Mapping: Learned how to pass specific column names directly into transformers, ensuring that preprocessing logic is programmatically tied to the correct data types.
+
+** Targeted RAG Implementation (LangChain) **
+
+-- One-Off Retrieval Chains: Learned to use create_retrieval_chain to build ad-hoc assistants that can provide grounded answers to isolated research queries without a full chatbot framework.
+
+-- Document-Specific Persistence: Discovered how to create siloed vector databases for individual PDFs, enabling rapid, document-specific information extraction while maintaining source integrity.

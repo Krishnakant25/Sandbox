@@ -375,7 +375,7 @@ Model Optimization (scikit-learn)
 
 
 
-**DAY 23:** What I Learned:
+**DAY 24:** What I Learned:
 
 ** Advanced Preprocessing (scikit-learn) **
 

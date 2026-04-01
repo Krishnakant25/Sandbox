@@ -388,3 +388,20 @@ Model Optimization (scikit-learn)
 -- One-Off Retrieval Chains: Learned to use create_retrieval_chain to build ad-hoc assistants that can provide grounded answers to isolated research queries without a full chatbot framework.
 
 -- Document-Specific Persistence: Discovered how to create siloed vector databases for individual PDFs, enabling rapid, document-specific information extraction while maintaining source integrity.
+
+
+
+
+**DAY 24:** What I Learned:
+
+** Model Optimization (scikit-learn) **
+
+-- Grid Search in Pipelines: Learned how to perform hyperparameter tuning inside a pipeline using the model__parameter syntax, ensuring that scaling and cross-validation are performed correctly on every data fold.
+
+-- Regularization Tuning: Observed how adjusting the C parameter controls the trade-off between fitting the training data and keeping the model weights small to prevent overfitting.
+
+** Dynamic RAG Sources (LangChain) **
+
+-- Online Content Loading: Mastered the use of WebBaseLoader to broaden RAG capabilities from static local files to dynamic, live web sources.
+
+-- Unified Retrieval Chains: Learned to use modern LCEL-based retrieval constructors (create_retrieval_chain) which provide a more readable and modular way to link retrievers to LLM response generators.

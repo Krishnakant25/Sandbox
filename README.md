@@ -405,3 +405,20 @@ Model Optimization (scikit-learn)
 -- Online Content Loading: Mastered the use of WebBaseLoader to broaden RAG capabilities from static local files to dynamic, live web sources.
 
 -- Unified Retrieval Chains: Learned to use modern LCEL-based retrieval constructors (create_retrieval_chain) which provide a more readable and modular way to link retrievers to LLM response generators.
+
+
+
+
+**DAY 25:** What I Learned:
+
+** Probabilistic Modeling (scikit-learn) **
+
+-- Naive Bayes Variants: Learned that the "right" Naive Bayes model depends on data distribution: Gaussian for continuous bell-curve data, Multinomial for discrete counts, and Bernoulli for binary (yes/no) features.
+
+-- The Independence Assumption: Understood the "Naive" part of the algorithm—it assumes all input features are independent of each other, which simplifies complex probability math into efficient multiplications.
+
+** Agentic Orchestration (LangGraph) **
+
+-- Graph-Based Logic: Transitioned from linear chains to graph structures, where AI behavior is defined by Nodes (the "work" or functions) and Edges (the "paths" or transitions).
+
+-- State Reducers: Discovered how add_messages acts as a "reducer," allowing the graph to intelligently merge new data into the existing state instead of simply replacing it.

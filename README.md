@@ -422,3 +422,20 @@ Model Optimization (scikit-learn)
 -- Graph-Based Logic: Transitioned from linear chains to graph structures, where AI behavior is defined by Nodes (the "work" or functions) and Edges (the "paths" or transitions).
 
 -- State Reducers: Discovered how add_messages acts as a "reducer," allowing the graph to intelligently merge new data into the existing state instead of simply replacing it.
+
+
+
+
+**DAY 26:** What I Learned:
+
+** Unsupervised Learning (scikit-learn) **
+
+-- K-Means Clustering Logic: Learned how to partition unlabelled data into $k$ clusters by minimizing the variance within each group. Unlike classification, this model discovers natural structures in data without pre-defined labels.
+
+-- WCSS and Convergence: Understood how to measure cluster "tightness" using the sum of squared distances between points and their centroids, ensuring the model converges on the most stable groupings.
+
+** Stateful AI Development (LangGraph) **
+
+-- Graph Streaming: Mastered the graph.stream method to handle asynchronous AI outputs, providing a dynamic "typing" experience for the user within a terminal-based chat loop.
+
+-- Persistent Conversation State: Learned to define a formal State class that uses message-adding annotations to prevent the model from "forgetting" earlier parts of the dialogue during a session.

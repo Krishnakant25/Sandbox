@@ -99,3 +99,4 @@ langserve
 fastapi
 scikit-learn
 matplotlib
+langchain_tavily

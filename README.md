@@ -473,3 +473,18 @@ Model Optimization (scikit-learn)
 -- The Interruption Pattern: Discovered how to insert programmatic "stops" into an agent's lifecycle, a critical feature for building safe and reliable AI that handles sensitive tool execution.
 
 -- State Inspection: Understood how to view the current "snapshot" of a graph during an interrupt, enabling developers or users to verify an agent's reasoning before it acts.
+
+
+
+
+**DAY 29:** What I Learned:
+
+** Core Logic & NLP Foundations **
+
+-- Frequency Counting: Learned to leverage the native Counter class for high-performance frequency tracking, a prerequisite for advanced NLP tasks like vocabulary analysis.
+
+** Minimalist Agent Orchestration (LangGraph) **
+
+-- Graph Initialization: Mastered the absolute minimal setup for a StateGraph, focusing on the core relationship between the state schema and node registration.
+
+-- Sentinel Sentinels: Understood the roles of START and END as reserved sentinels that define the entry and exit points of a state machine, ensuring the graph has a predictable execution path.

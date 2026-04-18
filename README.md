@@ -488,3 +488,18 @@ Model Optimization (scikit-learn)
 -- Graph Initialization: Mastered the absolute minimal setup for a StateGraph, focusing on the core relationship between the state schema and node registration.
 
 -- Sentinel Sentinels: Understood the roles of START and END as reserved sentinels that define the entry and exit points of a state machine, ensuring the graph has a predictable execution path.
+
+
+
+
+**DAY 30:** What I Learned:
+
+** Text Feature Engineering (scikit-learn) **
+
+-- Vectorization Efficiency: Transitioned from manual frequency counting to Scikit-Learn’s optimized vectorization classes, which handle both tokenization and sparse matrix storage in one step.
+
+-- Weighting Logic: Understood the mathematical transition from simple word counts to weighted importance using the formula:$$TF-IDF(t, d) = TF(t, d) \times IDF(t)$$This approach highlights words that are unique to a document while penalizing words that appear too frequently across the entire corpus.
+
+** Data Structure Mapping **
+
+-- Feature Management: Learned how to extract and align the global vocabulary with numerical outputs to verify which words the model identifies as the most significant predictors.

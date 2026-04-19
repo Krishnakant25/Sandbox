@@ -503,3 +503,16 @@ Model Optimization (scikit-learn)
 ** Data Structure Mapping **
 
 -- Feature Management: Learned how to extract and align the global vocabulary with numerical outputs to verify which words the model identifies as the most significant predictors.
+
+
+
+
+**DAY 31:** What I Learned:
+
+** Core Text Normalization (NLP Foundations) **
+
+-- Lumberjacks vs. Librarians: Learned that Stemming acts like a lumberjack—it’s fast and efficient but "crude" because it just chops off word endings (often leaving non-word fragments like "runn"). Lemmatization acts like a librarian—it’s slower but smarter, looking up words in a dictionary to find the meaningful root.
+
+-- The Importance of Context: Discovered that precision in normalization depends heavily on context. In NLTK, the lemmatizer needs help (POS tags) to know exactly how to handle a word, whereas spaCy handles this heavy lifting as part of its built-in linguistic pipeline.
+
+-- Tool Selection: Realized that for simple, high-speed search indexing, stemming is often sufficient, but for tasks requiring semantic understanding (like Q&A or Chatbots), lemmatization is the gold standard.

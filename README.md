@@ -516,3 +516,20 @@ Model Optimization (scikit-learn)
 -- The Importance of Context: Discovered that precision in normalization depends heavily on context. In NLTK, the lemmatizer needs help (POS tags) to know exactly how to handle a word, whereas spaCy handles this heavy lifting as part of its built-in linguistic pipeline.
 
 -- Tool Selection: Realized that for simple, high-speed search indexing, stemming is often sufficient, but for tasks requiring semantic understanding (like Q&A or Chatbots), lemmatization is the gold standard.
+
+
+
+
+**DAY 32:** What I Learned:
+
+** Interactive NLP Application Design (Streamlit) **
+
+-- Real-time Processing: Learned to build reactive UI components (like st.text_area and st.radio) that allow users to immediately see the effects of different NLP algorithms on their own data.
+
+-- Visualizing Linguistic Structures: Mastered the use of dataframes and Markdown tables to represent complex linguistic attributes—like POS tags and algorithm outputs—in a human-readable format.
+
+** Advanced Text Feature Extraction **
+
+-- Linguistic Context (POS): Discovered how identifying the Part of Speech (e.g., Noun, Verb, Adjective) adds a critical layer of depth to word analysis, explaining why a lemmatizer chooses a specific root.
+
+-- Semantic Visualization: Learned that WordClouds are significantly more meaningful when built from root forms. By grouping variations like "running," "runs," and "ran" under the single root "run," the visualization accurately represents the core themes of the text.

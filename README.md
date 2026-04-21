@@ -533,3 +533,20 @@ Model Optimization (scikit-learn)
 -- Linguistic Context (POS): Discovered how identifying the Part of Speech (e.g., Noun, Verb, Adjective) adds a critical layer of depth to word analysis, explaining why a lemmatizer chooses a specific root.
 
 -- Semantic Visualization: Learned that WordClouds are significantly more meaningful when built from root forms. By grouping variations like "running," "runs," and "ran" under the single root "run," the visualization accurately represents the core themes of the text.
+
+
+
+
+**DAY 33:** What I Learned:
+
+** NLP Evaluation Strategy **
+
+-- Manual Verification (Ground Truth): Learned how to design evaluation scripts where a human provides the "ground truth" for ambiguous linguistic transformations. This allows for a more nuanced understanding of model error rates beyond just looking at the output.
+
+-- Quantitative Comparisons: Discovered that while Lemmatization is often more accurate, building a tester reveals specific cases (like irregular verbs) where one algorithm significantly outperforms the other.
+
+** Advanced Text Preprocessing **
+
+-- Linguistic Cleaning Pipelines: Mastered the assembly of multi-stage text cleaning flows. By building a visual dashboard, I can see how the order of operations (e.g., removing punctuation before tokenization) affects the final quality of the data.
+
+-- Regex for Non-Textual Elements: Gained expertise in using specialized Unicode ranges in Python's re module to identify and manipulate emojis, which is critical for cleaning social media data without losing semantic sentiment.

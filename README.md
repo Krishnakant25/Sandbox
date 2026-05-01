@@ -567,3 +567,22 @@ Model Optimization (scikit-learn)
 ** Logical Data Merging **
 
 -- Extensible Filtering: Mastered the combination of static data sources (NLTK) with dynamic user inputs using set logic. This is essential for building flexible NLP tools that can adapt to different industries where certain "safe" words might actually be considered noise.
+
+
+
+
+**DAY 35:** What I Learned:
+
+** NLP Preprocessing Fundamentals **
+
+-- Standardization vs. Noise: Learned that removing punctuation and digits is a critical first step in NLP to reduce vocabulary size and focus the model on semantic word meanings.  
+
+-- Regex Versatility: Discovered that "negated sets" in regular expressions (e.g., [^a-zA-Z\s]) are highly efficient for defining exactly what to keep rather than listing everything to remove.  
+
+** Systems-First Agentic Architecture **
+
+-- Validation as Reliability: Mastered the use of args_schema to create a contract between the LLM and the tools, ensuring the agent remains precise during mathematical computations.  
+
+-- Multi-Step Chaining: Successfully implemented a workflow where the agent can perform cross-domain tasks—such as looking up a country's population on Wikipedia and then mathematically operating on that data—within a single execution cycle.  
+
+-- Graph Orchestration: Learned to use ToolNode and MessagesState to maintain a structured history of interactions, allowing the agent to "think" through complex multi-part questions.

@@ -586,3 +586,20 @@ Model Optimization (scikit-learn)
 -- Multi-Step Chaining: Successfully implemented a workflow where the agent can perform cross-domain tasks—such as looking up a country's population on Wikipedia and then mathematically operating on that data—within a single execution cycle.  
 
 -- Graph Orchestration: Learned to use ToolNode and MessagesState to maintain a structured history of interactions, allowing the agent to "think" through complex multi-part questions.
+
+
+
+
+**DAY 36:** What I Learned:
+
+** Agentic Data Science (LangChain + Groq) **
+
+-- Sequential Reasoning Workflows: Learned to define a rigid "System Prompt" workflow that guides an LLM through a logical discovery-to-evaluation sequence, ensuring the agent doesn't "guess" before investigating the data structure.  
+
+-- High-Performance Inference: Leveraged the llama-3.3-70b-versatile model on Groq to achieve low-latency tool selection, proving that agentic workflows can be both fast and complex.  
+
+** Production Utility Design **
+
+-- Stateful Data Caching: Mastered the use of a shared module-level DATAFRAME_CACHE to ensure that data loaded by one tool is immediately available to others, optimizing memory and preventing redundant disk I/O.  
+
+-- Automated ML Reporting: Discovered how to wrap scikit-learn training and testing logic into atomic tools, allowing the agent to provide grounded performance metrics (Accuracy, $R^2$, RMSE) alongside plain-English explanations.

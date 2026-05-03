@@ -603,3 +603,20 @@ Model Optimization (scikit-learn)
 -- Stateful Data Caching: Mastered the use of a shared module-level DATAFRAME_CACHE to ensure that data loaded by one tool is immediately available to others, optimizing memory and preventing redundant disk I/O.  
 
 -- Automated ML Reporting: Discovered how to wrap scikit-learn training and testing logic into atomic tools, allowing the agent to provide grounded performance metrics (Accuracy, $R^2$, RMSE) alongside plain-English explanations.
+
+
+
+
+**DAY 37:** What I Learned:
+
+** Computer Vision Foundations (OpenCV) **
+
+-- Matrix Representation of Imagery: Learned that digital images are handled as multidimensional NumPy arrays, where mathematical operations like addition directly correlate to visual changes like brightness.  
+
+-- The Temporal Nature of Video: Understood that video processing is essentially the high-speed iterative processing of individual image frames stored in a sequence.  
+
+** Production CV Workflows **
+
+-- Codecs and Containers: Mastered the use of FourCC codes to define video compression formats, ensuring that processed videos are readable by standard media players.  
+
+-- Real-time Interaction: Learned to implement keyboard event listeners (like cv2.waitKey) to create interactive desktop applications that can be interrupted or controlled by the user.

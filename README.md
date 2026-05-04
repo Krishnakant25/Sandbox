@@ -620,3 +620,18 @@ Model Optimization (scikit-learn)
 -- Codecs and Containers: Mastered the use of FourCC codes to define video compression formats, ensuring that processed videos are readable by standard media players.  
 
 -- Real-time Interaction: Learned to implement keyboard event listeners (like cv2.waitKey) to create interactive desktop applications that can be interrupted or controlled by the user.
+
+
+
+
+**DAY 38:** What I Learned:
+
+** Machine Learning Engineering (scikit-learn) **
+
+-- Atomic Pipelines: Learned that a Pipeline handles the internal state of transformers automatically. When you call .predict(), the pipeline uses the mean and variance calculated during the .fit() stage to scale new data exactly like the training data.
+
+** Advanced RAG Architecture (LangChain) **
+
+-- Source Verification: Understood how to leverage document metadata (like filenames) to build "transparent" AI systems. By injecting specific source labels into the prompt, the model can tell the user exactly which document provided the answer.
+
+-- Retriever Logic: Mastered the use of score_threshold. Unlike standard "k-nearest" searches that always return a fixed number of results, thresholding ensures that if no documents are relevant enough, the model receives no context at all, preventing "forced" answers.

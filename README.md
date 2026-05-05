@@ -635,3 +635,18 @@ Model Optimization (scikit-learn)
 -- Source Verification: Understood how to leverage document metadata (like filenames) to build "transparent" AI systems. By injecting specific source labels into the prompt, the model can tell the user exactly which document provided the answer.
 
 -- Retriever Logic: Mastered the use of score_threshold. Unlike standard "k-nearest" searches that always return a fixed number of results, thresholding ensures that if no documents are relevant enough, the model receives no context at all, preventing "forced" answers.
+
+
+
+
+**DAY 38:** What I Learned:
+
+** Computer Vision Foundations **
+
+-- BGR vs. RGB: Learned that the "inverted" colors often seen when displaying OpenCV images in Matplotlib are due to the swapped Blue and Red channels. Explicit conversion is a mandatory step for accurate visual debugging.  
+
+-- Image Geometry: Understanding that an image is represented as a matrix where the shape output follows the (Rows, Columns, Channels) convention. This is critical when resizing images or defining input layers for deep learning models.  
+
+** Visualization Tools **
+
+-- Interactive Rendering: Using Matplotlib’s plt.imshow() alongside OpenCV allows for a more flexible inline display within notebooks compared to standard windowed pop-ups, which can sometimes hang during execution.

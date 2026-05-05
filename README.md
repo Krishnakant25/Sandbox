@@ -639,7 +639,7 @@ Model Optimization (scikit-learn)
 
 
 
-**DAY 38:** What I Learned:
+**DAY 39:** What I Learned:
 
 ** Computer Vision Foundations **
 

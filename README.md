@@ -660,3 +660,20 @@ Model Optimization (scikit-learn)
 ** Visualization Tools **
 
 -- Matplotlib Rendering: plt.imshow() enables stable, inline visualization compared to OpenCV windows.
+
+
+
+
+**DAY 39:** What I Learned
+
+** Computer Vision Foundations **
+
+-- BGR vs. RGB: Reinforced that the "inverted" colors often seen when displaying OpenCV images in Matplotlib are due to the swapped Blue and Red channels. Explicit conversion via cv2.cvtColor(canvas, cv2.COLOR_BGR2RGB) is a mandatory step for accurate visual debugging in notebooks.
+
+-- Image Geometry: Understood that an image is represented as a matrix where the shape output follows the (Rows, Columns, Channels) convention. This is critical when defining coordinate systems for drawing functions like cv2.line or cv2.circle.
+
+-- Interactive Rendering: Using Matplotlib’s plt.imshow() alongside OpenCV allows for a more flexible inline display within notebooks compared to standard windowed pop-ups (cv2.imshow), which can sometimes hang the kernel.
+
+** Vision & Model Interoperability (Contextual Note) **
+
+-- State & Metadata: While not in this specific drawing code, learning was extended to how Python docstrings function as "metadata" for LLMs in agentic loops, and how setting temperature=0 is vital for utility agents to ensure mathematical accuracy and consistent results.

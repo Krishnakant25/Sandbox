@@ -732,7 +732,7 @@ Model Optimization (scikit-learn)
 
 
 
-DAY 44: What I Learned:
+**DAY 44:** What I Learned:
 
 ** Advanced Spatial Analysis (OpenCV) **
 
@@ -745,3 +745,7 @@ DAY 44: What I Learned:
 -- Cascade Efficiency: Understood that Haar Cascades use an "integral image" and a cascade of classifiers to quickly reject non-face regions, which is why they remain a standard for real-time performance on low-power hardware.
 
 -- Parameter Tuning: Mastered the trade-off between speed and accuracy by tuning scaleFactor (how much the image size is reduced at each scale) and minNeighbors (how many neighbors each candidate rectangle should have to retain it).
+
+
+
+

@@ -749,3 +749,16 @@ Model Optimization (scikit-learn)
 
 
 
+**DAY 45:** What I Learned:
+
+** Deep Learning Foundations (PyTorch) **
+
+-- The Tensor Hierarchy: Understood that a tensor is the generalized form of a matrix. While a matrix is strictly 2D, a tensor can represent data in any number of dimensions, which is essential for handling complex inputs like video (Time, Height, Width, Channels).
+
+-- Shape vs. Dimension: Learned that ndim refers to the number of axes, while shape describes the size along each axis. For example, a shape of (3, 2) indicates 2 dimensions consisting of 3 rows and 2 columns.
+
+** Data Manipulation & Retrieval **
+
+-- Efficient Indexing: Confirmed that PyTorch follows standard Python zero-based indexing. Mastering comma-separated indexing (tensor[1, 2]) is more efficient than nested indexing (tensor[1][2]) as it avoids unnecessary intermediate tensor creation.
+
+-- Axis Flipping: Discovered that torch.flip is a key technique in data augmentation, allowing for the reversal of data along specific axes to help models generalize better during training.

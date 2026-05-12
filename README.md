@@ -762,3 +762,7 @@ Model Optimization (scikit-learn)
 -- Efficient Indexing: Confirmed that PyTorch follows standard Python zero-based indexing. Mastering comma-separated indexing (tensor[1, 2]) is more efficient than nested indexing (tensor[1][2]) as it avoids unnecessary intermediate tensor creation.
 
 -- Axis Flipping: Discovered that torch.flip is a key technique in data augmentation, allowing for the reversal of data along specific axes to help models generalize better during training.
+
+
+
+

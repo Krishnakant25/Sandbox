@@ -766,3 +766,14 @@ Model Optimization (scikit-learn)
 
 
 
+**DAY 46:** What I Learned:
+
+** Tensor Initialization Patterns **
+
+-- Randomness in Learning: Learned that torch.rand is fundamental for initial weight assignment in neural networks. Starting with random values (noise) allows the model to break symmetry during training and begin learning features.
+
+-- Identity and Null States: Understood that torch.zeros and torch.ones are crucial for creating masks. For example, a "zeros" tensor of the same shape as an image can act as a placeholder where only specific "ones" (activated pixels) are allowed to pass through.
+
+** Geometric Flexibility **
+
+-- Rank Management: Reinforced the concept that tensors can represent anything from a single pixel (scalar) to a full color image (3D tensor) or a batch of images (4D tensor). Correctly defining the shape during initialization prevents "RuntimeErrors" during matrix multiplication later in the pipeline.

@@ -777,3 +777,20 @@ Model Optimization (scikit-learn)
 ** Geometric Flexibility **
 
 -- Rank Management: Reinforced the concept that tensors can represent anything from a single pixel (scalar) to a full color image (3D tensor) or a batch of images (4D tensor). Correctly defining the shape during initialization prevents "RuntimeErrors" during matrix multiplication later in the pipeline.
+
+
+
+
+**DAY 47:** What I Learned:
+
+** Computational Efficiency (PyTorch) **
+
+-- Bit-Depth and Performance: Learned that while higher precision (float64) reduces rounding errors, it significantly increases memory overhead and slows down training. Most deep learning models default to float32 as a balance between accuracy and hardware efficiency.
+
+-- Contiguous Memory: Discovered that .view() is more memory-efficient than .reshape() because it creates a "view" of the same underlying data rather than a copy, provided the tensor is contiguous in memory.
+
+** State and Logic Management **
+
+-- Computational Graphs: Understood that requires_grad=True signals to PyTorch that it needs to track every operation performed on that tensor. This transforms a simple array into a node within a mathematical graph that can compute its own derivatives.
+
+-- Element Count vs. Dim: Reinforced that while the shape of a tensor might change (e.g., from (12,) to (3, 4)), the total number of elements (nelement) must remain constant for a successful reshape operation.

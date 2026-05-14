@@ -794,3 +794,22 @@ Model Optimization (scikit-learn)
 -- Computational Graphs: Understood that requires_grad=True signals to PyTorch that it needs to track every operation performed on that tensor. This transforms a simple array into a node within a mathematical graph that can compute its own derivatives.
 
 -- Element Count vs. Dim: Reinforced that while the shape of a tensor might change (e.g., from (12,) to (3, 4)), the total number of elements (nelement) must remain constant for a successful reshape operation.
+
+
+
+
+**DAY 48:** What I Learned:
+
+** Tensor Statistics and Normalization **
+
+-- Feature Scaling: Learned that normalization is essential for preventing vanishing or exploding gradients. By squashing values between 0 and 1, we ensure that no single feature dominates the model's weight updates simply due to its scale.
+
+-- Coordinate Extraction: Understood how nonzero() serves as a filter to locate specific data points in large datasets, which is foundational for working with sparse matrices or identifying specific activations.
+
+** Neural Network Architecture (PyTorch) **
+
+-- The nn.Module Blueprint: Mastered the standard PyTorch workflow of defining layers in __init__ and the computational path in forward(). This modularity allows for the creation of complex, reusable AI components.
+
+-- The Optimization Cycle: Realized the critical importance of optimizer.zero_grad(). Without this, PyTorch would add new gradients to the ones from the previous loop, leading to incorrect weight adjustments.
+
+-- Backpropagation Intuition: Understood how loss.backward() traverses the computational graph in reverse to assign "blame" to specific weights for the model's error, enabling the optimizer to step toward a more accurate solution.

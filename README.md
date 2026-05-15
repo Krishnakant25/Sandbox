@@ -813,3 +813,24 @@ Model Optimization (scikit-learn)
 -- The Optimization Cycle: Realized the critical importance of optimizer.zero_grad(). Without this, PyTorch would add new gradients to the ones from the previous loop, leading to incorrect weight adjustments.
 
 -- Backpropagation Intuition: Understood how loss.backward() traverses the computational graph in reverse to assign "blame" to specific weights for the model's error, enabling the optimizer to step toward a more accurate solution.
+
+
+
+
+**DAY 49:** What I Learned
+
+** Applied Machine Learning Pipelines **
+
+-- Categorical Encoding: Learned that deep learning models cannot process string data directly; using LabelEncoder to transform text into integers is a prerequisite for tensor compatibility.
+
+-- Feature Scaling Impact: Confirmed that scaling data (e.g., BMI, Age) significantly improves convergence speed and prevents features with larger numerical ranges from disproportionately influencing the model's weights.
+
+** Model Inference & Deployment **
+
+-- Post-Training Utilities: Mastered the creation of "prediction functions" that handle the entire data flow from raw input to final class label, which is essential for deploying models into production environments.
+
+-- Inference Best Practices: Understood that switching to eval() mode and disabling gradient calculation with no_grad() is critical for saving memory and ensuring consistent results during the inference phase.
+
+** Classification vs. Regression Logic **
+
+-- Output Mapping: Noted the fundamental difference in output handling; Regression provides a direct continuous scalar, whereas Classification requires logical mapping (like argmax) to convert probability distributions into discrete categories.

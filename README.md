@@ -851,3 +851,7 @@ Model Optimization (scikit-learn)
 -- In-Memory Byte Decoding: Discovered how to handle remote imagery as a raw byte array stream, transforming it into an uncompressed color array using np.asarray with cv2.IMREAD_COLOR for immediate array manipulation.
 
 -- Custom Kernel Convolution: Gained an understanding of spatial filtering mechanics. Building custom matrix kernels demonstrated how localized neighborhood adjustments (e.g., sharpening, sharpening-edges, or blurring matrices) form the mathematical baseline for feature detection layers.
+
+
+
+

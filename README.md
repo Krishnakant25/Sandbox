@@ -838,7 +838,7 @@ Model Optimization (scikit-learn)
 
 
 
-**DAY 48:** What I Learned
+**DAY 50:** What I Learned
 
 ** Deep Learning Data Pipelines **
 
@@ -855,3 +855,24 @@ Model Optimization (scikit-learn)
 
 
 
+**DAY 51:** What I Learned
+
+** Convolutional Parameter Mechanics **
+
+-- Parameter Counting Core Logic: Solidified the math behind neural layer overhead. Learned that convolutional parameters depend strictly on the kernel footprint, channel depth, and biases:
+
+$$\text{Params} = (\text{kernel width} \times \text{kernel height} \times \text{input channels} + 1) \times \text{out channels}$$
+
+This explains why the initial Keras/PyTorch $3 \times 3$ layer mapping from 3 to 8 channels evaluates to exactly 224 parameters.
+
+-- Dense Layer Scaling Footprint: Discovered that the vast majority of parameters reside in the transition from feature map maps to dense connections. Flattening a $14 \times 14 \times 16$ array yields 3,136 nodes, scaling the first linear hidden connection alone to over 400,000 parameters.
+
+** Cross-Framework Network Architecture **
+
+Syntax Transformation: Mastered the translation of deep learning configurations between functional PyTorch object-oriented declarations (subclassing nn.Module and executing explicit forward logic) and the intuitive sequential abstractions of Keras.
+
+** End-to-End Image Classification Workflows **
+
+-- Input Dimension Alignment: Reinforced the importance of input dimension formatting in Keras. Raw 2D image matrices must be explicitly reshaped to declare channel depth (e.g., (28, 28, 1) for grayscale) before passing into a spatial Conv2D layer.
+
+-- Categorical One-Hot Formatting: Gained insight into targeting mechanics; multi-class evaluation requires shifting index scalars into probabilistic array vectors via categorical encoding to map smoothly against a final softmax layer.
